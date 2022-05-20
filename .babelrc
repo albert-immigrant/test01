@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "es2015",
+    "react"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-remove-console",
+        "transform-object-assign"
+      ]
+    }
+  }
+}
